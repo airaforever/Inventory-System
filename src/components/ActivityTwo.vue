@@ -27,4 +27,18 @@ function subtract() {
   <div>Total: {{ result }}</div>
 </template>
 
-<style></style>
+<style>
+.number {
+  color: rgb(220, 8, 209);
+  font-size: 50px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  text-align: center;
+  padding: 10px;
+  background-color: rgb(10, 232, 198);
+}
+.wrapper {
+  display: flex;
+  grid-gap: 40px;
+}
+</style>
